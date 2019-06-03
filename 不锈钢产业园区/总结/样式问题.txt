@@ -1,0 +1,12 @@
+1.background: linear-gradient(to right,#6852FB,#5D98F8);
+ 设置渐变背景颜色，必须设置成background；
+2.局部刷新：（实时刷新）
+   ①js版本，页面两秒刷新一次：
+   setTimeout(function(){loction.reload()},(2000));
+   ②html版本 
+   <meta http-equiv="refresh" content="10">
+   调到制定页面：
+   <meta http-equiv="refresh" content="10;url=http://www.51jfgou.com">
+
+
+   

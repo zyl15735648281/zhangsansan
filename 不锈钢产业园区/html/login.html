@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <!--兼容IE-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--视口设置-->
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+    maxmium-scale=1.0, user-scalable=0">
+  <!-- 上述3个meta标签必须放在最前面，任何其他内容都必须跟随其后！ -->
+  <!--可以让部分国产浏览器默认采用高速模式渲染页面-->
+  <meta name="renderer" content="webkit">
+  <title>登录界面</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/adapotor.css">
+</head>
+
+<body>
+  <div class="all">
+    <div></div>
+    <div class="nav">
+      <a href=""><</a>
+      <a href="">注册</a>
+      
+    </div>
+    <div class="content">
+      <h3>登录</h3>
+      <div>
+        <p>登录身份</p>
+        <select name="" id="">
+            <option value="">请选择</option>
+           <option value="">董事长</option>
+           <option value="">总经理</option>
+           <option value="">主管</option>
+
+        </select>
+      </div>
+      <div>
+        <p>账号</p>
+        <input type="text" placeholder="请输入账号" id="number">
+
+      </div>
+      <div>
+        <p>密码</p>
+        <input type="password" id="pwd">
+      </div>
+      <div class="one">
+        <p>验证码</p>
+        <input type="text" id="yzm-value">
+        <input id="yzm" value="R 2 Z P">
+      </div>
+      <div>
+        <input type="button" value="登录" id="login">
+      </div>
+      <div>
+        <p id="forget">忘记密码?</p>
+      </div>
+    </div>
+    <div></div>
+  </div>
+  <script src="../js/login.js"></script>
+  <script src="../js/jquery.js"></script>
+
+</body>
+
+</html>

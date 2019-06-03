@@ -1,0 +1,76 @@
+html {
+  font-size: 32px;
+}
+body {
+  width: 100%;
+  max-width: 32rem;
+  min-width: 16rem;
+  background: url(../images/bg.png) no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+.all div:first-child {
+  height: 1.2rem;
+}
+.all .nav {
+  font-size: 1rem;
+  height: 2rem;
+  line-height: 2;
+  padding: 0 0.5rem;
+}
+.all .nav a {
+  color: white;
+}
+.all .nav a:first-child {
+  float: left;
+}
+.all .nav a:last-child {
+  float: right;
+}
+.all .content {
+  margin: 0 auto;
+  width: 79%;
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+.all .content h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  height: 2.6rem;
+}
+.all .content p {
+  height: 1.5rem;
+  color: #999;
+  margin-top: 1rem;
+}
+.all .content input,
+.all .content select {
+  border: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 1.25rem;
+  height: 2rem;
+  padding-left: 1.25rem;
+  box-sizing: border-box;
+  letter-spacing: 0.1rem;
+}
+.all .content .one {
+  position: relative;
+  margin-bottom: 2.7rem;
+}
+.all .content .one #yzm-value {
+  width: 10rem;
+}
+.all .content .one #yzm {
+  margin-left: 0.5rem;
+  position: relative;
+  width: 5rem;
+  right: 0;
+}
+.all .content #login {
+  background: linear-gradient(to right, #6851fb, #5d98f8);
+}
+.all .content #forget {
+  color: black;
+}

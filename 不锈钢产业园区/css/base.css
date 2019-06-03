@@ -1,0 +1,77 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+input, textarea {
+	outline: 0;
+}
+input {
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+i, em {
+	font-style: normal;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+body {
+	font: 12px arial, 'microsoft yahei';
+	color: #666;
+}
+a:hover {
+	color: #c81623;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.red {
+	color: #c81623;
+}
+.tc {
+	text-align: center;
+}

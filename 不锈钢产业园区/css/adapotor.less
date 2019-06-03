@@ -1,0 +1,31 @@
+// 功能：计算1rem等于多少font-size的大小
+// 参数：@w  表示屏幕的宽度   @c 表示分割的份数
+// 适应字体，让宽度和份数变化
+.adapter(@w,@c){
+    html{
+        font-size: @w/@c;
+    }
+}
+@media screen and (width:320px){
+    .adapter(320px, 20)
+}
+
+@media screen and (width:360px){
+    .adapter(360px, 20)
+}
+
+@media screen and (width:375px){
+    .adapter(375px, 20)
+}
+
+@media screen and (width:414px){
+    .adapter(414px, 20)
+}
+
+@media screen and (width:412px){
+    .adapter(412px, 20)
+}
+
+@media screen and (width:411px){
+    .adapter(411px, 20)
+}
